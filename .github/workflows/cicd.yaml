@@ -1,11 +1,7 @@
 name: Print file content
 
-on: 
-push:
-  branches:
-    -main
-
-jobs:
+on: [push]
+  jobs:
   print_my_file:
     runs-on: ubuntu-latest
   step:
