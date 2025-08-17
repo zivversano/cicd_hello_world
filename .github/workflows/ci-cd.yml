@@ -1,0 +1,8 @@
+name: Print file content
+on: [push]
+jobs:
+  print_my_file:
+    runs-on:ubuntu-latest
+  step:
+    -uses:actions/ckeckout/@v3
+    -run:cat hello_world.txt
