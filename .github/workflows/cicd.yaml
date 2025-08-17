@@ -4,6 +4,6 @@ jobs:
   print_my_file:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout Repository
-    - uses: actions/checkout@v4
-    - run: cat hello_world.txt
+      - name: Checkout Repository
+      - uses: actions/checkout@v4
+      - run: cat hello_world.txt
