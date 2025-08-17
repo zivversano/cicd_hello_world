@@ -1,8 +1,14 @@
 name: Print file content
-on: [push]
+
+on: 
+push:
+  branches:
+    -main
+
 jobs:
   print_my_file:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
   step:
-    -uses:actions/ckeckout/@v4
-    -run:cat hello_world.txt
+    -name: Checkout Repository
+    -uses: actions/ckeckout/@v4
+    -run: cat hello_world.txt
