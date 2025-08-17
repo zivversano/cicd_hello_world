@@ -1,5 +1,4 @@
 name: Print file content
-
 on: [push]
 jobs:
   print_my_file:
