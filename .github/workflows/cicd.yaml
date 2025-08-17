@@ -4,5 +4,5 @@ jobs:
   print_my_file:
     runs-on:ubuntu-latest
   step:
-    -uses:actions/ckeckout/@v3
+    -uses:actions/ckeckout/@v4
     -run:cat hello_world.txt
