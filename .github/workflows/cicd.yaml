@@ -1,7 +1,7 @@
 name: Print file content
 
 on: [push]
-  jobs:
+jobs:
   print_my_file:
     runs-on: ubuntu-latest
   step:
